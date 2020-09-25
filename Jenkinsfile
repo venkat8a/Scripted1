@@ -1,5 +1,5 @@
 node {
-    def mvnHome = tool 'M3'
+    def mvnHome = tool '/etc/alternatives/mvn'
 
     stage('Checkout') {
         checkout scm
